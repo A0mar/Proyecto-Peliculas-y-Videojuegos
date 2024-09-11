@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Documento index principal">
+    <meta name="Author" content="Omar Alonso">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="../css/resena.css">
+    <title>Reseña Personal sobre videojuegos o películas</title>
+
+    <div>
+    <header>
+   <a href="../index.html"><img  src="../img/ready-player-one.jpg" alt="imagen pelicula ready"  width="220" class="ready"></a>
+        <h1 class="titulo"> Vídeojuegos y Películas</h1>
+        <h1 class="titulo">Reseña Personal sobre videojuegos o películas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="li_nav"><a class="nav_a" href="../index.html">Inicio</a></li>
+            <li class="li_nav"><a class="nav_a" href="pelisSobreVideojuegos.html">Pelis</a></li>
+            <li class="li_nav"><a class="nav_a" href="videojuegosSobrePelis.html">Videojuegos</a></li>
+            <li class="li_nav"><a class="nav_a" href="busqueda.html">Búsqueda</a></li>
+            <li class="li_nav"><a class="nav_a" href="planificar.html">Planificación</a></li>
+        </ul>
+        </nav>
+<main>
+<section>
+<article>
+    <h3>Añade reseña de una película o un videojuego</h3>
+    <hr>
+    <br>
+</article>
+<article>
+    <form action="action_page.php" method="post">
+    <table>
+<tr>
+   <td>   <label for="nombre" >Nombre del comentarista:</label></td>  
+   <td>    <input type="text" name="nombre" class="cuadro" size="50" id="nombre"></td>  
+    </tr>
+    <tr>
+        <td>  <label for="lista" >¿Qué se comenta?:</label></td>  
+        <td>  <select name="lista" id="lista">
+        <option value="">Seleccionar:</option> 
+        <option value="pelicula">pelicula</option>
+        <option value="videojuego">videojuego</option>
+        <option value="opiniion">Opinion</option>
+        <option value="otro">Otro</option></select>
+      </td> 
+    </tr>
+    <tr>
+        <td>    <label for="titulo">Nombre de la película o vídeojuego:</label></td>  
+        <td>     <input type="text" id="titulo" name="titulo" size="50" class="cuadro"></td>  
+      <tr>
+        <td>    <label for="comentario">Comentario/reseña:</label></td>  
+        <td>   <textarea name="comentario" id="comentario" class="cuadro" cols="40" rows="5" placeholder="Añadir reseña"></textarea></td>  
+       <tr>
+        <td>   <label for="color" >Color que asocias:</label></td>  
+        <td>   <input type="color" id="color" class="cuadro" name="color" value="#000000"> </td>  
+    </tr>
+        <tr>
+            <td>   <label for="puntuacion" >Valor que das entre 0 y 10:</label></td>  
+            <td>   <input type="range" id="puntuacion" min="0" max="10" step="1" value="40"></td>  
+    </tr>
+    <tr>
+    <td>   <label for="adjuntar">Adjuntar archivo:</label></td>  
+    <td>   <input type="file" name="adjuntar" id="adjuntar"></td>  
+    </tr>
+        <tr>
+            <td>   <label for="enlace">Enlace referencia:</label></td>  
+            <td>   <input type="url" name="enlace" size="50" class="cuadro" id="enlace"></td>  
+        </tr>
+        <tr>
+           <td  rowspan="1" id="tip">
+            <input type="submit" value="Enviar datos">
+           <input type="reset" value="Limpiar">
+           <input type="submit" value="Vista previa">
+           </td>  
+        </tr>
+
+</table>
+</form>
+</article>
+</section>
+
+</main>
+
+        <footer>
+            &copy; Propiedad de Omar
+            <p><a href="https://site.educa.madrid.org/ies.villablanca.madrid/"><em>IES Villablanca</em></a></p>
+            <p><a href="mailto:omar.alonso1@educa.madrid.org">Contacto</a></p>
+        </footer>
+        </div>

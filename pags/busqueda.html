@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Documento index principal">
+    <meta name="Author" content="Omar Alonso">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="../css/busqueda.css">
+    <title>Página de búsqueda</title>
+
+    <div>
+    <header>
+   <a href="../index.html"><img  src="../img/ready-player-one.jpg" alt="imagen pelicula ready"  width="220" class="ready"></a>
+        <h1 class="titulo"> Vídeojuegos y Películas</h1>
+        <h1 class="titulo">Búsqueda de películas o vídeojuegos</h1>
+    </header>
+
+    <nav>
+        <ul>  
+        <li class="linav"><a class="colora" href="../index.html">Inicio</a></li>
+        <li class="linav"><a class="colora" href="pelisSobreVideojuegos.html">Pelis</a></li>
+        <li class="linav"><a class="colora" href="videojuegosSobrePelis.html">Videojuegos</a></li>
+        <li class="linav"><a class="colora" href="planificar.html">Planificación</a></li>
+        <li class="linav"><a class="colora" href="resena.html">Reseña</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h3>Aquí podremos buscar películas y videojuegos</h3>
+        <hr>
+        <section>
+            <article>
+                <form action="action_page.php" method="post" name="busqueda">
+                   <table>
+                    <tr>
+                    <td><label for="nombre">Nombre Películas:</label> </td>
+                    <td><input type="text" name="nombre" size="50" id="nombre"></td>                                                         
+                    </tr>
+
+                    <tr>
+                   <td><label for="nombre2">Nombre Vídeojuego:</label></td>                                            
+                   <td><input type="text" name="nombre2" size="50" id="nombre2"></td>                                               
+                    </tr>
+                    
+                    <tr>
+                        <td><input id="in-env" type="submit" value="Buscar"></td>
+                    </tr>
+                </table>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        &copy; Propiedad de Omar
+        <p><a href="https://site.educa.madrid.org/ies.villablanca.madrid/"><em>IES Villablanca</em></a></p>
+        <p><a href="mailto:omar.alonso1@educa.madrid.org">Contacto</a></p>
+    </footer>
+</div>
